@@ -35,3 +35,6 @@ let routine = [
 function exerciseDog(dogName, dogBreed) {
   return routine.map(partRoutine => partRoutine(dogName, dogBreed))
 }
+
+// routine.map(part => part(arg1, arg2))   -- JS
+// routine.map { |part| part(arg1, arg2) } -- kind of if it were ruby
